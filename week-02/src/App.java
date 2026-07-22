@@ -37,5 +37,10 @@ public class App {
         System.out.println(
             Arrays.toString(answer4.solution(10, 2))
         );
+
+        System.out.println("\n=== 과제 5번 : 컴팩트한 명함카드 ");
+        BusinessCard answer5 = new BusinessCard();
+        int[][] arr5 = {{60, 50}, {30, 70}, {60, 30}, {80, 40}};
+        System.out.println(answer5.solution(arr5));
     }
 }
